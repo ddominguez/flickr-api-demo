@@ -4,7 +4,7 @@
 // include the foto class
 include 'libraries/fotos.php';
 
-$fotos = new Fotos('1eff0206acbb3b36124af322e86772db');
+$fotos = new Fotos('FLICKR_API_KEY');
 
 $group_params = array(
     'method' => 'flickr.groups.pools.getPhotos',
