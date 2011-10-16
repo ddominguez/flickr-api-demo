@@ -1,0 +1,47 @@
+body,div,p,form,fieldset,
+ul,li,dl,dt,dd,
+h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	padding:0;
+	border:none;
+	font: 1em/1.5em helvetica,arial,sans-serif;
+	color:#333;
+	cursor:default;
+	list-style:none;
+}
+
+div#container {
+    width: 65%;
+    max-width: 700px;
+    overflow: auto;
+    padding: 1px;
+}
+
+div.foto {
+    border: 1px solid #888;
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin: 5px;
+}
+
+
+div.foto_popup {
+    border: 2px solid #333;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+    background-color: #666;
+    padding: 5px;
+    display:none;
+}
+
+div.foto_popup span.close {
+    color: #eee;
+}
+
+div.foto_popup img {
+    display: block;
+    cursor: pointer;
+}
